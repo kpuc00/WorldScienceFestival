@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		2B01F8662937A4460067385A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8652937A4460067385A /* AppDelegate.swift */; };
 		2B01F8682937A4460067385A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8672937A4460067385A /* SceneDelegate.swift */; };
-		2B01F86A2937A4460067385A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8692937A4460067385A /* ViewController.swift */; };
 		2B01F86D2937A4460067385A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F86B2937A4460067385A /* Main.storyboard */; };
 		2B01F86F2937A4480067385A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F86E2937A4480067385A /* Assets.xcassets */; };
 		2B01F8722937A4480067385A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F8702937A4480067385A /* LaunchScreen.storyboard */; };
+		2B01F87A2937A45C0067385A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F8792937A45C0067385A /* GoogleService-Info.plist */; };
+		2B01F8982938F19D0067385A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8972938F19D0067385A /* ProfileViewController.swift */; };
+		2B01F89A2938F5580067385A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8992938F5580067385A /* HomeViewController.swift */; };
+		99031E230E0283E05C259C3A /* Pods_WorldScienceFestival.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A13C1B453C19C721E84BF2 /* Pods_WorldScienceFestival.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B01F8622937A4460067385A /* WorldScienceFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldScienceFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B01F8652937A4460067385A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B01F8672937A4460067385A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B01F8692937A4460067385A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B01F86C2937A4460067385A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B01F86E2937A4480067385A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B01F8712937A4480067385A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B01F8732937A4480067385A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B01F8792937A45C0067385A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B01F8972938F19D0067385A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2B01F8992938F5580067385A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9CB1E822C81D7D70A4291DED /* Pods-WorldScienceFestival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldScienceFestival.debug.xcconfig"; path = "Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival.debug.xcconfig"; sourceTree = "<group>"; };
+		E08CD4CF31969B969BE0E789 /* Pods-WorldScienceFestival.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldScienceFestival.release.xcconfig"; path = "Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival.release.xcconfig"; sourceTree = "<group>"; };
+		F3A13C1B453C19C721E84BF2 /* Pods_WorldScienceFestival.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldScienceFestival.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99031E230E0283E05C259C3A /* Pods_WorldScienceFestival.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162E7B739D7AB390A29F5F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CB1E822C81D7D70A4291DED /* Pods-WorldScienceFestival.debug.xcconfig */,
+				E08CD4CF31969B969BE0E789 /* Pods-WorldScienceFestival.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2B01F8592937A4460067385A = {
 			isa = PBXGroup;
 			children = (
 				2B01F8642937A4460067385A /* WorldScienceFestival */,
 				2B01F8632937A4460067385A /* Products */,
+				162E7B739D7AB390A29F5F5A /* Pods */,
+				792C913492863FB27A4882CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,25 @@
 		2B01F8642937A4460067385A /* WorldScienceFestival */ = {
 			isa = PBXGroup;
 			children = (
+				2B01F8792937A45C0067385A /* GoogleService-Info.plist */,
 				2B01F8652937A4460067385A /* AppDelegate.swift */,
 				2B01F8672937A4460067385A /* SceneDelegate.swift */,
-				2B01F8692937A4460067385A /* ViewController.swift */,
+				2B01F8992938F5580067385A /* HomeViewController.swift */,
+				2B01F8972938F19D0067385A /* ProfileViewController.swift */,
 				2B01F86B2937A4460067385A /* Main.storyboard */,
 				2B01F86E2937A4480067385A /* Assets.xcassets */,
 				2B01F8702937A4480067385A /* LaunchScreen.storyboard */,
 				2B01F8732937A4480067385A /* Info.plist */,
 			);
 			path = WorldScienceFestival;
+			sourceTree = "<group>";
+		};
+		792C913492863FB27A4882CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A13C1B453C19C721E84BF2 /* Pods_WorldScienceFestival.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B01F8762937A4480067385A /* Build configuration list for PBXNativeTarget "WorldScienceFestival" */;
 			buildPhases = (
+				27E17D561565C45F3BDE46EF /* [CP] Check Pods Manifest.lock */,
 				2B01F85E2937A4460067385A /* Sources */,
 				2B01F85F2937A4460067385A /* Frameworks */,
 				2B01F8602937A4460067385A /* Resources */,
+				49F7D52F8D52DB2B5EF1E9F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B01F8722937A4480067385A /* LaunchScreen.storyboard in Resources */,
+				2B01F87A2937A45C0067385A /* GoogleService-Info.plist in Resources */,
 				2B01F86F2937A4480067385A /* Assets.xcassets in Resources */,
 				2B01F86D2937A4460067385A /* Main.storyboard in Resources */,
 			);
@@ -133,14 +166,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27E17D561565C45F3BDE46EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldScienceFestival-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F7D52F8D52DB2B5EF1E9F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B01F85E2937A4460067385A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B01F86A2937A4460067385A /* ViewController.swift in Sources */,
 				2B01F8662937A4460067385A /* AppDelegate.swift in Sources */,
+				2B01F8982938F19D0067385A /* ProfileViewController.swift in Sources */,
 				2B01F8682937A4460067385A /* SceneDelegate.swift in Sources */,
+				2B01F89A2938F5580067385A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 		};
 		2B01F8772937A4480067385A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB1E822C81D7D70A4291DED /* Pods-WorldScienceFestival.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +367,8 @@
 				DEVELOPMENT_TEAM = MU8GB47774;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorldScienceFestival/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Science Festival";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +379,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nl.fontys.WorldScienceFestival;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.fontys.wsf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,6 +389,7 @@
 		};
 		2B01F8782937A4480067385A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08CD4CF31969B969BE0E789 /* Pods-WorldScienceFestival.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +398,8 @@
 				DEVELOPMENT_TEAM = MU8GB47774;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorldScienceFestival/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Science Festival";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nl.fontys.WorldScienceFestival;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.fontys.wsf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
