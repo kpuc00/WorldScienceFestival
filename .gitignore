@@ -1,0 +1,15 @@
+# XCode
+xcuserdata/
+ARIndoorNav.xcodeproj/project.pbxproj
+
+# Finder
+.DS_Store
+.svn
+*.swp
+
+# Cocoapods
+/Pods/
+Podfile.lock
+
+#Firebase
+GoogleService-Info.plist
