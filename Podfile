@@ -11,5 +11,6 @@ target 'WorldScienceFestival' do
   pod 'FirebaseAuth'
   pod 'FirebaseUI/Auth'
   pod 'FirebaseUI/Email'
+  pod 'Firebase/Firestore'
   
 end

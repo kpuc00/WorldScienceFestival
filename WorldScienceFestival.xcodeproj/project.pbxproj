@@ -14,7 +14,13 @@
 		2B01F8722937A4480067385A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F8702937A4480067385A /* LaunchScreen.storyboard */; };
 		2B01F87A2937A45C0067385A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F8792937A45C0067385A /* GoogleService-Info.plist */; };
 		2B01F8982938F19D0067385A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8972938F19D0067385A /* ProfileViewController.swift */; };
-		2B01F89A2938F5580067385A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8992938F5580067385A /* HomeViewController.swift */; };
+		2B01F89A2938F5580067385A /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8992938F5580067385A /* EventsViewController.swift */; };
+		2BA6F083296B9AC0000B3010 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6F082296B9ABF000B3010 /* EventCell.swift */; };
+		2BA6F087296C9F9C000B3010 /* CrowdMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */; };
+		2BA6F089296C9FAF000B3010 /* RootARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6F088296C9FAF000B3010 /* RootARViewController.swift */; };
+		2BCFB445296CC48D00C2AB7E /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36ED19296CBA8E009EE219 /* RealityKit.framework */; };
+		2BCFB447296CC76C00C2AB7E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2BCFB446296CC76B00C2AB7E /* Experience.rcproject */; };
+		2BCFB449296CCAE900C2AB7E /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCFB448296CCAE900C2AB7E /* ARViewController.swift */; };
 		99031E230E0283E05C259C3A /* Pods_WorldScienceFestival.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A13C1B453C19C721E84BF2 /* Pods_WorldScienceFestival.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +34,13 @@
 		2B01F8732937A4480067385A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B01F8792937A45C0067385A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B01F8972938F19D0067385A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		2B01F8992938F5580067385A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2B01F8992938F5580067385A /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		2B36ED19296CBA8E009EE219 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		2BA6F082296B9ABF000B3010 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdMapViewController.swift; sourceTree = "<group>"; };
+		2BA6F088296C9FAF000B3010 /* RootARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootARViewController.swift; sourceTree = "<group>"; };
+		2BCFB446296CC76B00C2AB7E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		2BCFB448296CCAE900C2AB7E /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		9CB1E822C81D7D70A4291DED /* Pods-WorldScienceFestival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldScienceFestival.debug.xcconfig"; path = "Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival.debug.xcconfig"; sourceTree = "<group>"; };
 		E08CD4CF31969B969BE0E789 /* Pods-WorldScienceFestival.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldScienceFestival.release.xcconfig"; path = "Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival.release.xcconfig"; sourceTree = "<group>"; };
 		F3A13C1B453C19C721E84BF2 /* Pods_WorldScienceFestival.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldScienceFestival.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCFB445296CC48D00C2AB7E /* RealityKit.framework in Frameworks */,
 				99031E230E0283E05C259C3A /* Pods_WorldScienceFestival.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,8 +92,13 @@
 				2B01F8792937A45C0067385A /* GoogleService-Info.plist */,
 				2B01F8652937A4460067385A /* AppDelegate.swift */,
 				2B01F8672937A4460067385A /* SceneDelegate.swift */,
-				2B01F8992938F5580067385A /* HomeViewController.swift */,
+				2BA6F082296B9ABF000B3010 /* EventCell.swift */,
+				2B01F8992938F5580067385A /* EventsViewController.swift */,
 				2B01F8972938F19D0067385A /* ProfileViewController.swift */,
+				2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */,
+				2BCFB448296CCAE900C2AB7E /* ARViewController.swift */,
+				2BA6F088296C9FAF000B3010 /* RootARViewController.swift */,
+				2BCFB446296CC76B00C2AB7E /* Experience.rcproject */,
 				2B01F86B2937A4460067385A /* Main.storyboard */,
 				2B01F86E2937A4480067385A /* Assets.xcassets */,
 				2B01F8702937A4480067385A /* LaunchScreen.storyboard */,
@@ -92,6 +110,7 @@
 		792C913492863FB27A4882CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B36ED19296CBA8E009EE219 /* RealityKit.framework */,
 				F3A13C1B453C19C721E84BF2 /* Pods_WorldScienceFestival.framework */,
 			);
 			name = Frameworks;
@@ -213,10 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA6F089296C9FAF000B3010 /* RootARViewController.swift in Sources */,
 				2B01F8662937A4460067385A /* AppDelegate.swift in Sources */,
 				2B01F8982938F19D0067385A /* ProfileViewController.swift in Sources */,
+				2BCFB449296CCAE900C2AB7E /* ARViewController.swift in Sources */,
+				2BA6F083296B9AC0000B3010 /* EventCell.swift in Sources */,
 				2B01F8682937A4460067385A /* SceneDelegate.swift in Sources */,
-				2B01F89A2938F5580067385A /* HomeViewController.swift in Sources */,
+				2B01F89A2938F5580067385A /* EventsViewController.swift in Sources */,
+				2BCFB447296CC76C00C2AB7E /* Experience.rcproject in Sources */,
+				2BA6F087296C9F9C000B3010 /* CrowdMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
