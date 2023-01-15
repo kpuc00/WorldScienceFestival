@@ -11,6 +11,7 @@ class EventCell: UICollectionViewCell {
     static let identifier = "eventItem"
     
     @IBOutlet weak var lbAvailability: UILabel!
+    @IBOutlet weak var eventImage: UIImageView!
     @IBOutlet weak var lbDate: UILabel!
     @IBOutlet weak var lbEventTitle: UILabel!
     @IBOutlet weak var lbAgeGroup: UILabel!

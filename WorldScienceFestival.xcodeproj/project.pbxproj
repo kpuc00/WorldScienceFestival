@@ -15,9 +15,13 @@
 		2B01F87A2937A45C0067385A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B01F8792937A45C0067385A /* GoogleService-Info.plist */; };
 		2B01F8982938F19D0067385A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8972938F19D0067385A /* ProfileViewController.swift */; };
 		2B01F89A2938F5580067385A /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01F8992938F5580067385A /* EventsViewController.swift */; };
+		2B59AE19296D8307003E2015 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B59AE18296D8306003E2015 /* data.json */; };
+		2B67B0072974905F00B7FE38 /* BookingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67B0062974905F00B7FE38 /* BookingsViewCell.swift */; };
 		2BA6F083296B9AC0000B3010 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6F082296B9ABF000B3010 /* EventCell.swift */; };
 		2BA6F087296C9F9C000B3010 /* CrowdMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */; };
 		2BA6F089296C9FAF000B3010 /* RootARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6F088296C9FAF000B3010 /* RootARViewController.swift */; };
+		2BC283EA2974473200D80DB2 /* EventsListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC283E92974473200D80DB2 /* EventsListHeaderView.swift */; };
+		2BC283EC2974597300D80DB2 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC283EB2974597300D80DB2 /* CollectionReusableView.swift */; };
 		2BCFB445296CC48D00C2AB7E /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36ED19296CBA8E009EE219 /* RealityKit.framework */; };
 		2BCFB447296CC76C00C2AB7E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2BCFB446296CC76B00C2AB7E /* Experience.rcproject */; };
 		2BCFB449296CCAE900C2AB7E /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCFB448296CCAE900C2AB7E /* ARViewController.swift */; };
@@ -36,9 +40,13 @@
 		2B01F8972938F19D0067385A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2B01F8992938F5580067385A /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		2B36ED19296CBA8E009EE219 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		2B59AE18296D8306003E2015 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		2B67B0062974905F00B7FE38 /* BookingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewCell.swift; sourceTree = "<group>"; };
 		2BA6F082296B9ABF000B3010 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdMapViewController.swift; sourceTree = "<group>"; };
 		2BA6F088296C9FAF000B3010 /* RootARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootARViewController.swift; sourceTree = "<group>"; };
+		2BC283E92974473200D80DB2 /* EventsListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListHeaderView.swift; sourceTree = "<group>"; };
+		2BC283EB2974597300D80DB2 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 		2BCFB446296CC76B00C2AB7E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2BCFB448296CCAE900C2AB7E /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		9CB1E822C81D7D70A4291DED /* Pods-WorldScienceFestival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldScienceFestival.debug.xcconfig"; path = "Target Support Files/Pods-WorldScienceFestival/Pods-WorldScienceFestival.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,10 +101,14 @@
 				2B01F8652937A4460067385A /* AppDelegate.swift */,
 				2B01F8672937A4460067385A /* SceneDelegate.swift */,
 				2BA6F082296B9ABF000B3010 /* EventCell.swift */,
+				2B67B0062974905F00B7FE38 /* BookingsViewCell.swift */,
 				2B01F8992938F5580067385A /* EventsViewController.swift */,
 				2B01F8972938F19D0067385A /* ProfileViewController.swift */,
+				2BC283E92974473200D80DB2 /* EventsListHeaderView.swift */,
+				2BC283EB2974597300D80DB2 /* CollectionReusableView.swift */,
 				2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */,
 				2BCFB448296CCAE900C2AB7E /* ARViewController.swift */,
+				2B59AE18296D8306003E2015 /* data.json */,
 				2BA6F088296C9FAF000B3010 /* RootARViewController.swift */,
 				2BCFB446296CC76B00C2AB7E /* Experience.rcproject */,
 				2B01F86B2937A4460067385A /* Main.storyboard */,
@@ -179,6 +191,7 @@
 				2B01F8722937A4480067385A /* LaunchScreen.storyboard in Resources */,
 				2B01F87A2937A45C0067385A /* GoogleService-Info.plist in Resources */,
 				2B01F86F2937A4480067385A /* Assets.xcassets in Resources */,
+				2B59AE19296D8307003E2015 /* data.json in Resources */,
 				2B01F86D2937A4460067385A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,12 +245,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC283EA2974473200D80DB2 /* EventsListHeaderView.swift in Sources */,
+				2BC283EC2974597300D80DB2 /* CollectionReusableView.swift in Sources */,
 				2BA6F089296C9FAF000B3010 /* RootARViewController.swift in Sources */,
 				2B01F8662937A4460067385A /* AppDelegate.swift in Sources */,
 				2B01F8982938F19D0067385A /* ProfileViewController.swift in Sources */,
 				2BCFB449296CCAE900C2AB7E /* ARViewController.swift in Sources */,
 				2BA6F083296B9AC0000B3010 /* EventCell.swift in Sources */,
 				2B01F8682937A4460067385A /* SceneDelegate.swift in Sources */,
+				2B67B0072974905F00B7FE38 /* BookingsViewCell.swift in Sources */,
 				2B01F89A2938F5580067385A /* EventsViewController.swift in Sources */,
 				2BCFB447296CC76C00C2AB7E /* Experience.rcproject in Sources */,
 				2BA6F087296C9F9C000B3010 /* CrowdMapViewController.swift in Sources */,
@@ -388,16 +404,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU8GB47774;
+				DEVELOPMENT_TEAM = R9XJ622U85;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorldScienceFestival/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "World Science Festival";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera to use the AR functionality!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,16 +436,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MU8GB47774;
+				DEVELOPMENT_TEAM = R9XJ622U85;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WorldScienceFestival/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "World Science Festival";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera to use the AR functionality!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
