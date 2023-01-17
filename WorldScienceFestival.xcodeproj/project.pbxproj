@@ -42,6 +42,7 @@
 		2B36ED19296CBA8E009EE219 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
 		2B59AE18296D8306003E2015 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		2B67B0062974905F00B7FE38 /* BookingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewCell.swift; sourceTree = "<group>"; };
+		2B67B0082974B91D00B7FE38 /* WorldScienceFestival.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorldScienceFestival.entitlements; sourceTree = "<group>"; };
 		2BA6F082296B9ABF000B3010 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		2BA6F086296C9F9C000B3010 /* CrowdMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdMapViewController.swift; sourceTree = "<group>"; };
 		2BA6F088296C9FAF000B3010 /* RootARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootARViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		2B01F8642937A4460067385A /* WorldScienceFestival */ = {
 			isa = PBXGroup;
 			children = (
+				2B67B0082974B91D00B7FE38 /* WorldScienceFestival.entitlements */,
 				2B01F8792937A45C0067385A /* GoogleService-Info.plist */,
 				2B01F8652937A4460067385A /* AppDelegate.swift */,
 				2B01F8672937A4460067385A /* SceneDelegate.swift */,
@@ -402,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorldScienceFestival/WorldScienceFestival.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R9XJ622U85;
@@ -424,7 +427,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorldScienceFestival/WorldScienceFestival.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R9XJ622U85;
@@ -456,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

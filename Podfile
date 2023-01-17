@@ -12,6 +12,5 @@ target 'WorldScienceFestival' do
   pod 'FirebaseUI/Auth'
   pod 'FirebaseUI/Email'
   pod 'Firebase/Firestore'
-  pod 'SMHeatMapView'
   
 end
